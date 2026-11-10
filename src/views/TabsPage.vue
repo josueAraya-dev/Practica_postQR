@@ -17,6 +17,11 @@
           <ion-icon aria-hidden="true" :icon="square" />
           <ion-label>Tab 3</ion-label>
         </ion-tab-button>
+
+        <ion-tab-button tab="tab4" href="/tabs/tab4">
+          <ion-icon aria-hidden="true" :icon="receiptOutline" />
+          <ion-label>Pedidos</ion-label>
+        </ion-tab-button>
       </ion-tab-bar>
     </ion-tabs>
   </ion-page>
@@ -24,5 +29,5 @@
 
 <script setup lang="ts">
 import { IonTabBar, IonTabButton, IonTabs, IonLabel, IonIcon, IonPage, IonRouterOutlet } from '@ionic/vue';
-import { ellipse, square, people, readerOutline } from 'ionicons/icons';
+import { square, people, readerOutline, receiptOutline } from 'ionicons/icons';
 </script>
